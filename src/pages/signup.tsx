@@ -13,32 +13,7 @@ const { Text } = Typography;
 const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
 
 const SignUp = (): JSX.Element => {
-    const validate = (values) => {
-        const errors: FormikErrors = {};
-
-        // Contact Name
-        if (!values.firstName) {
-            errors.firstName = 'Required';
-        }
-
-        if (!values.lastName) {
-            errors.lastName = 'Required';
-        }
-
-        // Validate Email
-        if (!values.email) {
-            errors.email = 'Required';
-        } else if (!emailRegex.test(values.email)) {
-            errors.email = 'Invalid Email Address';
-        }
-
-        if (!values.password || values.password.length < 8) {
-            // Password
-            errors.password = 'Your password should have at least 8 characters';
-        }
-
-        return errors;
-    };
+    const validate = (values) => {};
 
     const submitForm = async (values) => {};
 
@@ -64,7 +39,7 @@ const SignUp = (): JSX.Element => {
                                 marginTop: 10,
                             }}>
                             {({ errors, handleChange, handleSubmit, values }) => (
-                                <Form onFinish={handleSubmit} layout="vertical" colon={false} requiredMark>
+                                <Form onFinish={handleSubmit} layout="vertical" colon={false}>
                                     <Row gutter={16} justify="space-between">
                                         <Col span={12}>
                                             <Form.Item
@@ -159,9 +134,7 @@ const SignUp = (): JSX.Element => {
                                         fontSize: 14,
                                     }}>
                                     Already have an account? &nbsp;
-                                    <Link href="/sign-in" style={{ fontWeight: 600 }}>
-                                        Sign in
-                                    </Link>
+                                    <Link href="/sign-in">Sign in</Link>
                                 </div>
                             </Col>
                         </Row>

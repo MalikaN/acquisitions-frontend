@@ -37,6 +37,7 @@ module.exports = {
             },
         ],
         camelcase: 'off',
+        'no-unused-vars': 'off',
     },
     // Append the following snippet of code to avoid a bug where eslint not detecting the version of React 👇.
     settings: {

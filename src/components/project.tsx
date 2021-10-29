@@ -23,19 +23,17 @@ const Project = (props: ProjectProps) => {
     return (
         <div className="site-card-border-less-wrapper">
             <Link href="/project/[slug]" as={`/project/${slug}`}>
-                <a>
-                    <Card style={{ width: '100%' }}>
-                        <p>{id}</p>
-                        <p>{name}</p>
-                        <p>{country}</p>
-                        <p>{description}</p>
-                        <p>
-                            <img src={logo} alt="" width={100} height={100} />
-                        </p>
-                        <p>{price}</p>
-                        <p>{revenue}</p>
-                    </Card>
-                </a>
+                <Card style={{ width: '100%' }}>
+                    <p>{id}</p>
+                    <p>{name}</p>
+                    <p>{country}</p>
+                    <p>{description}</p>
+                    <p>
+                        <img src={logo} alt="" width={100} height={100} />
+                    </p>
+                    <p>{price}</p>
+                    <p>{revenue}</p>
+                </Card>
             </Link>
         </div>
     );

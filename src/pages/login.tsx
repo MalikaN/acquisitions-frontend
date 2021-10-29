@@ -10,7 +10,7 @@ import eyeVisible from '../assets/show.svg';
 
 const Login = () => {
     const submitForm = () => {};
-    const validate = (values): FormikErrors => {};
+    const validate = (values) => {};
 
     return (
         <div>
@@ -78,9 +78,7 @@ const Login = () => {
                                             </Button>
                                             <div style={{ margin: '20px 0' }}>
                                                 {'Forgot password? '}
-                                                <Link href="/forgot-password" style={{ fontWeight: 600 }}>
-                                                    Reset here
-                                                </Link>
+                                                <Link href="/forgot-password">Reset here</Link>
                                             </div>
                                         </Row>
                                     </Form.Item>
@@ -101,9 +99,7 @@ const Login = () => {
                             marginLeft: 10,
                         }}>
                         New to Rooster?
-                        <Link href="/create-account" style={{ marginLeft: 10, fontWeight: 600 }}>
-                            &nbsp;Register now
-                        </Link>
+                        <Link href="/create-account">&nbsp;Register now</Link>
                     </div>
                 </Col>
             </Row>

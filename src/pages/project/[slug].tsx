@@ -9,7 +9,7 @@ const ProjectDetails = () => {
     const router = useRouter();
     const { slug } = router.query;
 
-    const project = dummyData.filter((value) => value.slug === slug)[0];
+    const project = dummyData || [].filter((value) => value.slug === slug)[0];
 
     return (
         <div>

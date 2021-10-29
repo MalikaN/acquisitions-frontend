@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "SwiftHub",
+        "slug": "swiftHub",
+        "logo": "https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Ff1635534105299x713915702883477000%2Fd542a0b6-ae63-482a-9bee-a265949c1a03.png?w=192&h=192&auto=compress&dpr=2&fit=max",
+        "price": "$7000",
+        "description": "hello",
+        "country": "Sri Lanka",
+        "revenue": "$199"
+    },
+    {
+        "id": 2,
+        "name": "Synonymful - communicate like a pro",
+        "slug": "synonymful",
+        "logo": "https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Ff1635534105299x713915702883477000%2Fd542a0b6-ae63-482a-9bee-a265949c1a03.png?w=192&h=192&auto=compress&dpr=2&fit=max",
+        "price": "$7000",
+        "description": "hello",
+        "country": "Sri Lanka",
+        "revenue": "$199"
+    },
+    {
+        "id": 3,
+        "name": "Meet for Slack",
+        "slug": "meet-for-slack",
+        "logo": "https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Ff1635534105299x713915702883477000%2Fd542a0b6-ae63-482a-9bee-a265949c1a03.png?w=192&h=192&auto=compress&dpr=2&fit=max",
+        "price": "$7000",
+        "description": "hello",
+        "country": "Sri Lanka",
+        "revenue": "$199"
+    },
+    {
+        "id": 4,
+        "name": "Scrappr",
+        "slug": "scrappr",
+        "logo": "https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Ff1635534105299x713915702883477000%2Fd542a0b6-ae63-482a-9bee-a265949c1a03.png?w=192&h=192&auto=compress&dpr=2&fit=max",
+        "price": "$7000",
+        "description": "hello",
+        "country": "Sri Lanka",
+        "revenue": "$199"
+    },
+    {
+        "id": 5,
+        "name": "AiArtist",
+        "slug": "aiartist",
+        "logo": "https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Ff1635534105299x713915702883477000%2Fd542a0b6-ae63-482a-9bee-a265949c1a03.png?w=192&h=192&auto=compress&dpr=2&fit=max",
+        "price": "$7000",
+        "description": "hello",
+        "country": "Sri Lanka",
+        "revenue": "$199"
+    }
+]

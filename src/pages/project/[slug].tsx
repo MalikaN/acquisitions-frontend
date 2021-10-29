@@ -1,15 +1,18 @@
 import React, { useContext } from 'react';
 import { useRouter } from 'next/router';
 import { Button, Card } from 'antd';
-import dummyData from '../../dummyData.json';
 import { AppContext } from '../../contexts/AppContext';
 
 const ProjectDetails = () => {
-    const { handleClick } = useContext(AppContext);
+    const { projects } = useContext(AppContext);
     const router = useRouter();
     const { slug } = router.query;
 
-    const project = dummyData || [].filter((value) => value.slug === slug)[0];
+    if (projects.length === 0) {
+        return <div>Loading..</div>;
+    }
+
+    const project = projects.filter((value) => value.slug === slug)[0];
 
     return (
         <div>
@@ -24,7 +27,6 @@ const ProjectDetails = () => {
                 <p>{project.price}</p>
                 <p>{project.revenue}</p>
             </Card>
-            <Button onClick={handleClick}>Submit</Button>
         </div>
     );
 };
